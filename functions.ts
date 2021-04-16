@@ -22,3 +22,11 @@ const logger = (message: string): void => {
 const throwError = (message: string): never => {
   throw new Error(message);
 };
+
+const throwErrorIf = (message: string): void => {
+  if (!message) {
+    throw new Error(message);
+  }
+  
+  console.log(message);
+};

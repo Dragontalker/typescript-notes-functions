@@ -10,3 +10,7 @@ const subtract = (a: number, b: number): void => {
 const divide = (a: number, b: number): number => {
   return a / b;
 };
+
+const multiply = (a: number, b: number): number => {
+  return a * b;
+};
